@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/stylesheet.css">
+  <title>Hello, world!</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">NATURALS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link    active" href="./aboutus.html">ABOUT US</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              PRODUCTS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Wheat Flour</a></li>
+              <li><a class="dropdown-item" href="#">Besan</a></li>
+              <li><a class="dropdown-item" href="#">Maida</a></li>
+              <li><a class="dropdown-item" href="#">Rava</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Suggest Products</a></li>
+              <li><a class="dropdown-item" href="#">Write For US</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./contactus.html">COTACT US</a>
+          </li>
+        </ul>
+
+        <div class="daynight px-4">
+          <i class="fas fa-sun  fa-2x" id="daymode" onclick="nightDay()" style="color: yellow;"></i>
+          <i class="far fa-moon  fa-2x" id="nightmode" onclick="dayNight()" style="color: white;"></i>
+        </div>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row modeimg" id="modeimg1" ><!--style="background-image: url('./images/morning.jpeg')"-->
+    <div class="col-12">
+      <p><label id="lblGreetings" class="wishes   py-4" ></label></p>
+    </div>
+
+  </div>
+
+  <div class="mode" style="background-color: gray; color: white;  font-size: 20px;" Id="body">
+
+    <div class="card-body text-center ">
+      <h2 class="card-title">WHO WE ARE</h2>
+      <p class="card-text">At NATURALS, we believe that through collaboration <br>and mutual interest, a sustainable
+        system of post-harvest management could be achieved and, ultimately, progress for all..</p>
+        <button id="knowmorebtn" class="btn btn-dark ">Know More</button>
+        
+          <p  id="knowmorep">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores impedit sit minus molestias unde cumque ratione,
+             <br> beatae vero, saepe eaque qui labore nisi, nesciunt natus doloremque! Et consequatur tempora earum
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores impedit sit minus molestias unde cumque ratione,
+              beatae vero, saepe eaque qui labore nisi, nesciunt natus doloremque! Et consequatur tempora earum
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores impedit sit minus molestias unde cumque ratione,
+              beatae vero, saepe eaque qui labore nisi, nesciunt natus doloremque! Et consequatur tempora earum
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores impedit sit minus molestias unde cumque ratione,
+              beatae vero, saepe eaque qui labore nisi, nesciunt natus doloremque! Et consequatur tempora earum.</p>
+      
+
+    </div>
+
+
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col card11">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/1600x700/?dining,packing" class="card-img-top "  alt="...">
+          <div class="card-body "  style="background-color:dimgray;">
+            <h5 class="card-title">WHAT WE DO</h5>
+            <p class="card-text">NATURALS is dedicated to creating products that support organic, chemical-free
+              procedures in storing, drying, and transporting agricultural commodities. It is our job to make sure that
+              your valuable commodities are handled </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col card22">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/1600x700/?food,technology" class="card-img-top "   alt="...">
+          <div class="card-body"  style="background-color:dimgray;">
+            <h5 class="card-title">WHY IT MATTERS</h5>
+            <p class="card-text">
+
+              We do what we do because we want to be one step closer to our vision—to see a hunger-free world. We aim to
+              mainstream sustainable practices in the agricultural sector through partnerships and cooperation.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col  card33">
+        <div class="card h-100">
+          <img src="https://source.unsplash.com/1600x700/?study,coding" class="card-img-top "  alt="...">
+          <div class="card-body"  style="background-color:dimgray;">
+            <h5 class="card-title">LEARN MORE ABOUT US</h5>
+            <p class="card-text"> we value inclusiveness and strive to provide opportunities to succeed for all
+              stakeholders involved; be it farmers, traders, and even our employees.. We support, solve, communicate,
+              create, and innovate. </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="bottom text-center  bg-dark text-light w-100">
+    <div>
+
+      <a href="./fb.html"><i class="fab fa-facebook-square fa-2x"></i></a>
+
+      <a href="./twitter.html"><i class="fab fa-twitter-square fa-2x"></i></a>
+
+
+      <a href="./instagram.html"><i class="fab fa-instagram-square fa-2x"></i></a>
+
+      <a href="./whatsapp.html"><i class="fab fa-whatsapp-square fa-2x"></i></a>
+
+    </div>
+
+    <div>
+      <p>
+        PUNE, MAHARASHTRA
+      </p>
+      <p>
+        @2019 , All right reserved.
+      </p>
+      <p class="naturals  text-center">NATU<span class="R">R</span>ALS</p>
+    </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./script/script.js"></script>
+
+
+</body>
+
+</html>
